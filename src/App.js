@@ -1,21 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
+          href="./01 - 43 Brigade Sinhala Book Spread View.pdf"
           rel="noopener noreferrer"
         >
-          Learn React
+          සිංහල
+        </a>
+        <a
+          className="App-link"
+          href="02 - 43 Brigade Tamil Book Spread View.pdf"
+          rel="noopener noreferrer"
+        >
+          தமிழ்
+        </a>
+        <a
+          className="App-link"
+          href="03 - 43 Brigade English Book Spread View.pdf"
+          rel="noopener noreferrer"
+        >
+          English
         </a>
       </header>
     </div>
